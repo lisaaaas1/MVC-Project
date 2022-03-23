@@ -33,6 +33,9 @@
                     <a class="nav-link active" aria-current="page" href="/">Главная</a>
                 </li>
                 <?php if(has_session('id')): ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="/posts/create">Содание пового поста</a>
+                </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/account">Мой аккаунт</a>
                     </li>
